@@ -99,7 +99,9 @@ body {
     left: 0%;
     z-index: 10;
     cursor: pointer;
+    
 }
+
 
 .container {
     max-width: 768px;
@@ -148,6 +150,7 @@ main {
 
 .links li:hover{
     transform: translate3d(-20px,0,0);
+    
 }
 
 .devLink li a {
@@ -163,7 +166,11 @@ main {
 
 .socials li{
     transition: all .5s ease;
+    border-radius: 50%;
+    
 }
+
+
 
 .socials li:hover{
     transform: translate3d(0px,-6px,0);
